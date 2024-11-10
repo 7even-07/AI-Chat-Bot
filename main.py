@@ -32,7 +32,7 @@ def get_answer_for_question(question: str, knowledge_base: dict) -> Optional[str
 
 
 def chat_bot():
-    knowledge_base = load_knowledge_base(r'C:\Users\Admin\Desktop\whatever\AI BOT\knoledge_base.json')
+    knowledge_base = load_knowledge_base(r'C:\Users\Admin\Desktop\whatever\AI BOT\knoledge_base.json')  #add your knowledge base path here.
 
     while True:
         user_input = input("You: ").strip()
